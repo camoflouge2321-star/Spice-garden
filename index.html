@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spice Garden | Authentic Indian Fine Dining</title>
+    <meta name="description" content="Experience authentic Indian fine dining at Spice Garden. Taste the vibrant spices and elegant ambiance.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav id="navbar">
+        <div class="logo">Spice Garden</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+    </nav>
+
+    <header id="home" class="hero" style="background-image: linear-gradient(rgba(10, 10, 10, 0.7), rgba(10, 10, 10, 0.5)), url('assets/images/hero.png');">
+        <div class="hero-content">
+            <h1 class="reveal">A Symphony of Spices</h1>
+            <p class="reveal">Experience the authentic taste of India in every bite. Culinary heritage redefined.</p>
+            <a href="#contact" class="btn reveal">Reserve a Table</a>
+        </div>
+    </header>
+
+    <section id="menu" class="menu-section section">
+        <div class="section-title reveal">
+            <h2>Our Signature Menu</h2>
+            <p>A curated selection of our finest authentic dishes, crafted with passion.</p>
+        </div>
+        <div class="menu-grid">
+            <!-- Dish 1 -->
+            <div class="menu-card reveal">
+                <div class="menu-image">
+                    <img src="assets/images/tikka_masala.png" alt="Chicken Tikka Masala">
+                </div>
+                <div class="menu-info">
+                    <h3>Chicken Tikka Masala</h3>
+                    <p>Tender chicken in a rich, creamy tomato and Indian spice sauce.</p>
+                    <span class="price">$18</span>
+                </div>
+            </div>
+            <!-- Dish 2 -->
+            <div class="menu-card reveal">
+                <div class="menu-image">
+                    <img src="assets/images/chicken_biryani.png" alt="Chicken Biryani">
+                </div>
+                <div class="menu-info">
+                    <h3>Hyderabadi Biryani</h3>
+                    <p>Fragrant basmati rice layered with marinated chicken, saffron, and spices.</p>
+                    <span class="price">$20</span>
+                </div>
+            </div>
+            <!-- Dish 3 -->
+            <div class="menu-card reveal">
+                <div class="menu-image">
+                    <img src="assets/images/garlic_naan.png" alt="Garlic Naan">
+                </div>
+                <div class="menu-info">
+                    <h3>Garlic Naan</h3>
+                    <p>Freshly baked tandoori bread brushed with garlic butter and herbs.</p>
+                    <span class="price">$5</span>
+                </div>
+            </div>
+            <!-- Dish 4 -->
+            <div class="menu-card reveal">
+                <div class="menu-image">
+                    <img src="assets/images/samosa_platter.png" alt="Crispy Samosa Platter">
+                </div>
+                <div class="menu-info">
+                    <h3>Crispy Samosas</h3>
+                    <p>Golden pastry pockets filled with spiced potato and peas, served with mint chutney.</p>
+                    <span class="price">$8</span>
+                </div>
+            </div>
+            <!-- Dish 5 -->
+            <div class="menu-card reveal">
+                <div class="menu-image">
+                    <img src="assets/images/palak_paneer.png" alt="Palak Paneer">
+                </div>
+                <div class="menu-info">
+                    <h3>Palak Paneer</h3>
+                    <p>Cubes of fresh cottage cheese simmered in a creamy spinach puree.</p>
+                    <span class="price">$16</span>
+                </div>
+            </div>
+            <!-- Dish 6 -->
+            <div class="menu-card reveal">
+                <div class="menu-image">
+                    <img src="assets/images/gulab_jamun.png" alt="Gulab Jamun">
+                </div>
+                <div class="menu-info">
+                    <h3>Gulab Jamun</h3>
+                    <p>Warm, sweet milk dumplings soaked in a fragrant rose and cardamom syrup.</p>
+                    <span class="price">$7</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section section">
+        <div class="about-container reveal">
+            <div class="about-image">
+                <img src="assets/images/about.png" alt="Spice Garden Interior">
+            </div>
+            <div class="about-content">
+                <h2>Our Story</h2>
+                <p>Welcome to Spice Garden, where culinary traditions from the royals of India meet elegant modern dining. Founded on the principle of authentic flavors and unmatched hospitality, our chefs blend traditional spices with fresh, locally sourced ingredients to create magic on your plate.</p>
+                <p>Enjoy a beautiful ambiance, warm vibrant colors, and an immersive dining experience that transports you straight to the heart of India.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section section">
+        <div class="section-title reveal">
+            <h2>Book a Table</h2>
+            <p>Reserve your unforgettable dining experience at Spice Garden.</p>
+        </div>
+        <div class="contact-container reveal">
+            <form id="reservation-form">
+                <div class="input-group">
+                    <input type="text" id="name" required placeholder="Full Name">
+                </div>
+                <div class="input-group">
+                    <input type="email" id="email" required placeholder="Email Address">
+                </div>
+                <div class="input-row">
+                    <div class="input-group">
+                        <input type="date" id="date" required>
+                    </div>
+                    <div class="input-group">
+                        <input type="time" id="time" required>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <input type="number" id="guests" required min="1" max="20" placeholder="Number of Guests">
+                </div>
+                <button type="submit" class="btn btn-full">Confirm Reservation</button>
+            </form>
+            <div id="form-message" class="hidden">Thank you! Your reservation is confirmed. We will see you soon.</div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="logo">Spice Garden</div>
+            <p>&copy; 2026 Spice Garden. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
