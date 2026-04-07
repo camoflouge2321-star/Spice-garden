@@ -1,5 +1,5 @@
 :root {
-    ----primary: #d35400;
+    ----primary: #d30038;
     /* Blue */
     --primary-light: #e67e22;
     --primary-dark: #b54700;
@@ -7,7 +7,7 @@
     /* Deep red */
     --accent: #f1c40f;
     /* Warm turmeric yellow */
-    --text-main: #f5f6fa;
+    --text-main: #ad5c27;
     --text-muted: #dcdde1;
     --bg-dark: #111111;
     --bg-card: rgba(30, 30, 30, 0.7);
